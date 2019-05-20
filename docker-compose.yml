@@ -1,0 +1,13 @@
+version: "3"
+services:
+  redis:
+    image: redis:5.0.5
+    ports:
+      - "6379:6379"
+  redis_ee:
+    image: redislabs/redis:5.4.0-19
+    cap_add:
+      - sys_resource
+    ports:
+      - "8443:8443"
+      - "12000:12000"
