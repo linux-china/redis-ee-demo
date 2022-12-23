@@ -1,8 +1,21 @@
-Redis Demo with Redis & Redis EE
+Redis Demo with Redis Stack
 ===============================
 
-# References
+RedisInsight: a visualization tool for understanding and optimizing Redis data.
 
+# Modules
+
+* RedisJSON
+* RediSearch 
+* RedisGraph
+* RedisTimeSeries
+* RedisBloom
+
+![Redis Stack](redis-stack.png)
+
+# References
+       
+* Redis Stack: https://redis.io/docs/stack/
 * Redis Streams: https://redis.io/topics/streams-intro
 * A first look at Redis Streams and how to use them with Java: https://www.javacodegeeks.com/2018/05/a-first-look-at-redis-streams-and-how-to-use-them-with-java.html
 * Spring Data Redis: https://docs.spring.io/spring-data/redis/docs/current/reference/html/
