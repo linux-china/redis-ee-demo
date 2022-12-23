@@ -1,13 +1,7 @@
 version: "3"
 services:
-  redis:
-    image: redis:7.0.7
+  redis-stack:
+    image: redis/redis-stack
     ports:
-      - "6379:6379"
-  redis_ee:
-    image: redislabs/redis:6.2.18-65
-    cap_add:
-      - SYS_RESOURCE
-    ports:
-      - "8443:8443"
-      - "12000:12000"
+      - "16379:6379"
+      - "8001:8001"
