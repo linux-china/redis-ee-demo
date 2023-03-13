@@ -23,4 +23,5 @@ RedisInsight: a visualization tool for understanding and optimizing Redis data.
 * Spring Data Redis: https://docs.spring.io/spring-data/redis/docs/current/reference/html/
 * Lettuce Reactive API: https://github.com/lettuce-io/lettuce-core/wiki/Reactive-API
 * Redis Explained: https://architecturenotes.co/redis/
+* How to use Redis as a job scheduler: https://medium.com/@hectortav/how-to-use-redis-as-a-job-scheduler-49e85d2d778
 
