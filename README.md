@@ -12,6 +12,10 @@ RedisInsight: a visualization tool for understanding and optimizing Redis data.
 * RedisBloom
 
 ![Redis Stack](redis-stack.png)
+            
+# Expired Keys listener
+
+* Enable expired events on keys: `redis-cli config set notify-keyspace-events Ex` 
 
 # References
        
