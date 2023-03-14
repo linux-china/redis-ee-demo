@@ -16,6 +16,7 @@ RedisInsight: a visualization tool for understanding and optimizing Redis data.
 # Expired Keys listener
 
 * Enable expired events on keys: `redis-cli config set notify-keyspace-events Ex` 
+* Modify `redis.conf` and add `notify-keyspace-events Ex`
 
 # References
        
