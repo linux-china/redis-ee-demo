@@ -30,4 +30,6 @@ RedisInsight: a visualization tool for understanding and optimizing Redis data.
 * Redis Explained: https://architecturenotes.co/redis/
 * How to use Redis as a job scheduler: https://medium.com/@hectortav/how-to-use-redis-as-a-job-scheduler-49e85d2d778
 * Redis OM Spring Demo - Vector Similarity Search: https://github.com/redis/redis-om-spring/tree/main/demos/roms-vss
+* Rediscover Redis for Vector Similarity Search: https://redis.com/blog/rediscover-redis-for-vector-similarity-search/
+* Java-VSS-demo: https://github.com/RedisAI/Java-VSS-demo
 
