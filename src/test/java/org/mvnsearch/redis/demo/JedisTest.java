@@ -4,6 +4,7 @@ import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.mvnsearch.microservices.annotator.RemoteAccess;
+import redis.clients.jedis.DefaultJedisClientConfig;
 import redis.clients.jedis.Jedis;
 
 public class JedisTest {
@@ -12,7 +13,8 @@ public class JedisTest {
 
     @BeforeAll
     public static void setUp() {
-        jedis = new Jedis("localhost", 6379);
+        final DefaultJedisClientConfig resp3Config = DefaultJedisClientConfig.builder().resp3().build();
+        jedis = new Jedis("localhost", 6379, resp3Config);
     }
 
     @AfterAll
